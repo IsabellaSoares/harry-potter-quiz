@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Harry Potter';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Harry Potter'), url('../src/fonts/harry-potter.woff') format('woff');
+}

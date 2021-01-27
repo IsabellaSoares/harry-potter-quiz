@@ -1,6 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
 import db from '../db.json';
+import './index.css';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -16,6 +17,16 @@ const GlobalStyle = createGlobalStyle`
   }
   html, body {
     min-height: 100vh;
+  }
+  h1 {
+    font-family: 'Harry Potter';
+    font-size: 25px !important;
+    color: #72121E;
+    padding: 5px 0 0 0;
+  }
+  p {
+    line-height: 20px;
+    font-size: 15px;
   }
   #__next {
     flex: 1;
