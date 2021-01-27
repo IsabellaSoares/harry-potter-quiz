@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import { useRouter } from 'next/router';
 
 import db from '../db.json';
 
@@ -20,7 +21,35 @@ export const QuizContainer = styled.div`
   }
 `;
 
+const Input = styled.input`
+  width: 281px;
+  height: 38px;
+  border-radius: 3.5px;
+  margin-bottom: 25px;
+  border: none;
+  padding: 10px;
+
+  &:focus {
+    outline-color: ${db.theme.colors.secondary};
+  }
+`;
+
+const Button = styled.button`
+  width: 281px;
+  height: 38px;
+  background: ${db.theme.colors.primary};
+
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+
+  color: ${db.theme.colors.secondary};
+  font-weight: bold;
+`;
+
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = useState('');
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
@@ -31,6 +60,21 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
+            
+            <form onSubmit={(event) => {
+              event.preventDefault();
+              router.push(`/quiz?name=${name}`);
+            }}>
+              <Input
+                placeholder='Qual o seu nome, meu caro?'
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+              />
+
+              <Button type='submit' disabled={name.length === 0}>
+                Teste seus conhecimentos
+              </Button>
+            </form>
           </Widget.Content>
         </Widget>
 

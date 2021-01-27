@@ -27,8 +27,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 5px 0 0 0;
   }
   p {
-    line-height: 20px;
-    font-size: 15px;
+    line-height: 20px !important;
+    font-size: 15px !important;
   }
   #__next {
     flex: 1;
