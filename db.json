@@ -4,25 +4,300 @@
   "description": "Teste os seus conhecimentos sobre o mundo mágico de Harry Potter",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2019/03/legiao_Jp8HKgQ0tmuekx7_YVXdi3MsGfEcvP9jbaDCoO1IlL.jpg.jpeg",
+      "answer": 3,
+      "title": "Que escola Harry Potter frequenta?",
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Academia de Magia Beauxbatons",
+        "Beco Diagonal",
+        "Hogwarts",
+        "Instituto Durmstrang"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://entretenimentohp.weebly.com/uploads/1/1/8/7/11878596/4572739_orig.jpg?0",  
+      "answer": 2,
+      "title": "Quem é o diretor da escola que Harry frequenta?",
       "alternatives": [
-        "background: linear-gradient(#72121E, #FED143);",
-        "background: gradient(#72121E, #FED143);"
+        "Rúbeo Hagrid",
+        "Albus Dumbledore",
+        "Igor Karkaroff",
+        "Olímpia Maxime"
+      ]
+    },
+    {
+      "image": "https://litreactor.com/sites/default/files/imagecache/header/images/column/headers/467392575_d69eba5301_b.jpg",  
+      "answer": 1,
+      "title": "Quem é o maior inimigo de Harry Potter?",
+      "alternatives": [
+        "Lord Voldemort",
+        "Bellatrix Lestrange",
+        "Hermione Granger",
+        "Sirius Black"
+      ]
+    },
+    {
+      "image": "https://lh3.googleusercontent.com/lfYdk0F3ice5q75p5y1ofhcAnMFlaJG6gJKTS6JcwP1jt6xd2w9ESm2FXZA8UgxksVCzC8g5kDaHA_D4rMRd9S-i_qg=w640-h400-e365-rj-sc0x00ffffff",  
+      "answer": 4,
+      "title": "Quem é o amigo mais próximo de Harry Potter?",
+      "alternatives": [
+        "Neville Longbottom",
+        "Draco Malfoy",
+        "Severus Snape",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "image": "https://lh3.googleusercontent.com/lfYdk0F3ice5q75p5y1ofhcAnMFlaJG6gJKTS6JcwP1jt6xd2w9ESm2FXZA8UgxksVCzC8g5kDaHA_D4rMRd9S-i_qg=w640-h400-e365-rj-sc0x00ffffff",  
+      "answer": 2,
+      "title": "Quem é a amiga mais próximo de Harry Potter?",
+      "alternatives": [
+        "Luna Lovegood",
+        "Hermione Granger",
+        "Cho Chang",
+        "Dolores Umbridge"
+      ]
+    },
+    {
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2016/12/quadri.jpg",  
+      "answer": 1,
+      "title": "Qual jogo, usando vassouras voadoras, é jogado pelos magos?",
+      "alternatives": [
+        "Quadribol",
+        "Corrida Anual de Vassoura",
+        "Corrida de Cavalos Alados",
+        "Xadrez de Bruxo"
+      ]
+    },
+    {
+      "image": "https://rollingstone.uol.com.br/media/_versions/harry-potter-pocoes_widelg.png",  
+      "answer": 2,
+      "title": "Que professor, desprezado por muitos, ensina poções?",
+      "alternatives": [
+        "Trelawney",
+        "Minerva McGonagall",
+        "Severus Snape",
+        "Lupin"
+      ]
+    },
+    {
+      "image": "https://2.bp.blogspot.com/-XgULHC2dZzI/VXC4wSPlSPI/AAAAAAAAKk0/fYoyXaLTGlc/s1600/PdA-Potterish_7129.jpg",  
+      "answer": 4,
+      "title": "Quem diz a Harry que ele é, na verdade, um bruxo?",
+      "alternatives": [
+        "Valter Dursley",
+        "Albus Dumbledore",
+        "Lord Voldemort",
+        "Hagrid"
+      ]
+    },
+    {
+      "image": "https://pm1.narvii.com/6304/d5d89f5fa67ae4c66605991aeef59688da96aaed_00.jpg",  
+      "answer": 2,
+      "title": "Quem escreveu a série Harry Potter?",
+      "alternatives": [
+        "Stephen King",
+        "J.K. Rowling",
+        "Stephenie Meyer",
+        "Victoria Aveyard"
+      ]
+    },
+    {
+      "image": "https://www.proximatrip.com.br/wp-content/uploads/2020/05/IMG_5671.jpg",  
+      "answer": 4,
+      "title": "Em que país se passa a história dos livros?",
+      "alternatives": [
+        "Brasil",
+        "Alemanha",
+        "México",
+        "Reino Unido"
+      ]
+    },
+    {
+      "image": "https://dicasdaflorida.com.br/wp-content/uploads/2014/09/Hogwarts-Express-Trem-Universal-Orlando-1.jpg",  
+      "answer": 2,
+      "title": "De qual plataforma o trem para a escola parte?",
+      "alternatives": [
+        "9 4/3",
+        "9 3/4",
+        "8 5/8",
+        "3 4/9"
+      ]
+    },
+    {
+      "image": "https://static.quizur.com/i/b/5984d3b24c4231.863003895984d3b22ad0e1.26526175.jpg",  
+      "answer": 3,
+      "title": "Que tipo de criatura é o Dobby?",
+      "alternatives": [
+        "Doende",
+        "Hipogrifo",
+        "Elfo Doméstico",
+        "Grindylow"
+      ]
+    },
+    {
+      "image": "https://hips.hearstapps.com/cosmouk.cdnds.net/15/08/nrm_1424419881-draco-malfoy-harry-potter.jpg?resize=640:*",  
+      "answer": "Slytherin",
+      "title": "Draco Malfoy faz parte de qual casa?",
+      "alternatives": [
+        "Sonserina",
+        "Lufa-Lufa",
+        "Corvinal",
+        "Grifinória"
+      ]
+    },
+    {
+      "image": "https://rollingstone.uol.com.br/media/uploads/harry-potter-sirius-black_reproducao.jpg",  
+      "answer": 1,
+      "title": "Sirius Black escapou de qual prisão?",
+      "alternatives": [
+        "Azkaban",
+        "Beco Diagonal",
+        "Hogwarts",
+        "Ministério da Magia"
+      ]
+    },
+    {
+      "image": "https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2016/05/8a4eb1a2da449aae7efc6f374bcd60c7.jpg.jpeg",  
+      "answer": 3,
+      "title": "No Quadribol, qual é a posição de Harry Potter?",
+      "alternatives": [
+        "Goleiro",
+        "Batedor",
+        "Apanhador",
+        "Artilheiro"
+      ]
+    },
+    {
+      "image": "https://3.bp.blogspot.com/-ITVbUdHOn7E/WZCAR9ouXqI/AAAAAAAAyx0/2Tf7Mv5zbJgeBS4iz1sjX3Mt6uRHeCLdwCLcBGAs/s1600/Geraldine-Somerville-as-Lily-Potter-Daniel-Radcliffe-as-Harry-Potter-Adrian-Rawlins-as-James-Potter-in-Mirror-of-Erised.jpg",  
+      "answer": 4,
+      "title": "Qual é o nome da mãe de Harry Potter?",
+      "alternatives": [
+        "Bellatrix",
+        "Molly",
+        "Minerva",
+        "Lillian"
+      ]
+    },
+    {
+      "image": "https://segredosdomundo.r7.com/wp-content/uploads/2020/08/casas-de-hogwarts-significados-por-tras-dos-lares-da-escola-bruxa.png",  
+      "answer": 2,
+      "title": "Qual casa tem a cor azul?",
+      "alternatives": [
+        "Grifinória",
+        "Corvinal",
+        "Sonserina",
+        "Lufa-Lufa"
+      ]
+    },
+    {
+      "image": "https://1.bp.blogspot.com/-79sUerYbFc8/Tmo3l9FVrnI/AAAAAAAAAJ8/rhCt42dCq_8/s1600/The%2BWeasleys%2B2.jpg",  
+      "answer": 1,
+      "title": "Quem é o irmão gêmeo de George Weasley?",
+      "alternatives": [
+        "Fred",
+        "Ron",
+        "Gina",
+        "Harry"
+      ]
+    },
+    {
+      "image": "https://rollingstone.uol.com.br/media/_versions/harry_e_edwiges_reprod_widelg.jpg",  
+      "answer": 3,
+      "title": "Qual é o nome do bicho de estimação de Harry?",
+      "alternatives": [
+        "Trevor",
+        "Aragog",
+        "Edwiges",
+        "Basilisco"
+      ]
+    },
+    {
+      "image": "https://www.harrymedia.com/img/data/media/216/tom_riddle.jpg",  
+      "answer": 4,
+      "title": "O que são o Diário de Tom Riddle e o Diadema de Rowena Ravenclaw?",
+      "alternatives": [
+        "Diários",
+        "Poções mágicas",
+        "Criaturas mágicas",
+        "Horcruxes"
+      ]
+    },
+    {
+      "image": "https://nerdbreak.com.br/wp-content/uploads/2019/07/camara-secreta.jpg",  
+      "answer": 4,
+      "title": "Que criatura, da Câmara Secreta, paralisa e mata alunos no segundo ano de Harry?",
+      "alternatives": [
+        "Dragão",
+        "Fênix",
+        "Hipogrifo",
+        "Basilisco"
+      ]
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cFcxLoN8ToEjazZpys7ECzePNoeRTjSmOQ&usqp=CAU",  
+      "answer": 2,
+      "title": "Quem morre durante o Torneio Tribruxo?",
+      "alternatives": [
+        "Harry Potter",
+        "Cedrico Diggory",
+        "Hermione Granger",
+        "Tom Riddle"
+      ]
+    },
+    {
+      "image": "https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2017/04/legiao_nGZwix23CKjzyumAVOY5oPFLW4Dh7vlg9STfX6MqEQ.png.jpeg",  
+      "answer": 1,
+      "title": "O que vai \"sugar toda a sua felicidade\"?",
+      "alternatives": [
+        "Dementador",
+        "Poção polissuco",
+        "Diabretes da Cornualha",
+        "Mandrágoras"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/80/c5/b6/80c5b601c5d4e56d2e73e160f9895c4a.jpg",  
+      "answer": 3,
+      "title": "Quem assombra o banheiro das meninas?",
+      "alternatives": [
+        "Basilisco",
+        "Gigantes",
+        "A Murta que Geme",
+        "Aranhas"
+      ]
+    },
+    {
+      "image": "https://www.tricurioso.com/wp-content/uploads/2018/10/quais-sao-os-beneficios-do-rabanete-para-a-saude-2.jpg",  
+      "answer": 2,
+      "title": "Quem tem brincos de rabanete?",
+      "alternatives": [
+        "Cho Chang",
+        "Luna Lovegood",
+        "Hermione Granger",
+        "Gina Weasley"
+      ]
+    },
+    {
+      "image": "https://vignette1.wikia.nocookie.net/harrypotter/images/e/e6/Alohomora.JPG/revision/latest?cb=20080813001712",  
+      "answer": 1,
+      "title": "O que a expressão \"Alohomora\" faz?",
+      "alternatives": [
+        "Destranca",
+        "Faz objetos voarem",
+        "Apaga a memória",
+        "Repara objetos"
+      ]
+    },
+    {
+      "image": "https://uploads.jovemnerd.com.br/wp-content/uploads/2018/09/nagini-harry-potter-1210x544.jpg",  
+      "answer": 4,
+      "title": "Qual o nome da serpente de Lord Voldemort?",
+      "alternatives": [
+        "Edwiges",
+        "Dobby",
+        "Aragog",
+        "Nagini"
       ]
     }
   ],
