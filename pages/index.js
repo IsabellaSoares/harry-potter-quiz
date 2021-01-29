@@ -1,50 +1,16 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
 
+import QuizContainer from '../src/components/QuizContainer';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 60%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
-
-const Input = styled.input`
-  width: 281px;
-  height: 38px;
-  border-radius: 3.5px;
-  margin-bottom: 25px;
-  border: none;
-  padding: 10px;
-
-  &:focus {
-    outline-color: ${db.theme.colors.secondary};
-  }
-`;
-
-const Button = styled.button`
-  width: 281px;
-  height: 38px;
-  background: ${db.theme.colors.primary};
-
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
-  border-radius: 4px;
-
-  color: ${db.theme.colors.secondary};
-  font-weight: bold;
-`;
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export default function Home() {
   const router = useRouter();
@@ -67,13 +33,16 @@ export default function Home() {
             }}>
               <Input
                 placeholder='Qual o seu nome, meu caro?'
+                name='Nome do usuário'
                 value={name}
                 onChange={(event) => setName(event.target.value)}
               />
 
-              <Button type='submit' disabled={name.length === 0}>
-                Teste seus conhecimentos
-              </Button>
+              <Button 
+                type='submit'
+                disabled={name.length === 0}
+                text='Teste seus conhecimentos'
+              />
             </form>
           </Widget.Content>
         </Widget>
